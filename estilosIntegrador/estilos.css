@@ -1,8 +1,19 @@
 .imgBsas{
-    background-image: url("imagenesIntegrador/ba1.jpg");
+    background: url("../imagenesIntegrador/bsas.jpg") no-repeat center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
 }
 
+.botonTicket{
+    background: rgb(69, 158, 69);
+}
 
-.colorBtn{
+.estiloBtn{
     background: rgb(176, 231, 86);
+    border-radius: 5px;
+}
+
+.bgFooter{
+    background: rgb(28, 86, 112);
 }

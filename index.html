@@ -34,7 +34,7 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                       <div class="collapse navbar-collapse " id="navbarNav">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav ">
                           <li class="nav-item">
                             <a class="nav-link active text-light" aria-current="page" href="#">La conferencia</a>
                           </li>
@@ -59,18 +59,18 @@
     </header>
 
     <main>
-        <div class="row align-items-md-stretch imgBsas">
-            <div class="col-md-6"></div>
-            <div class="col-md-6 ">
-                <div class="h-100 p-5 text-end">
-                  <h2>Conf Bs As</h2>
-                  <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el  conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
-                  <button class="btn btn-outline-secondary" type="button">Quiero ser orador</button>
-                  <button class="btn btn-success" type="button">Comprar tickets</button>
+        <div class="row align-items-md-stretch imgBsas ">
+            <div class="col-md"></div>
+            <div class="col-md-6 h-100">
+                <div class="text-end mt-5 p-5">
+                  <h2 class="text-light">Conf Bs As</h2>
+                  <p class="text-light">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el  conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                  <button class="btn btn-outline-light" type="button">Quiero ser orador</button>
+                  <button class="btn botonTicket text-light" type="button">Comprar tickets</button>
                 </div>
             </div>
         </div>
-        <div>
+        <div class="row">
             <p class="fs-5 text-center mt-4">CONOCE A LOS</p>
             <p class="fs-2 text-center">ORADORES</p>
         </div>
@@ -81,15 +81,9 @@
                     <div class="card" style="width: 17rem;">
                         <img src="../integrador/imagenesIntegrador/steve.jpg" class="card-img-top" alt="Steve Jobs">
                         <div class="card-body">
-                            <div class="d-grid gap-2 d-md-block text-start">
-                                <button type="button" class="btn btn-warning fw-bold"
-                                    style="--bs-btn-padding-y: .35rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                                    JavaScript
-                                </button>
-                                <button type="button" class="btn btn-info m-2 text-light fw-bold"
-                                    style="--bs-btn-padding-y: .35rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                                    React
-                                </button>
+                            <div class="text-start">
+                                <span class="badge text-bg-warning ">JavaScript</span>
+                                <span class="badge text-bg-info">React</span>
                             </div>
                           <h5 class="card-title text-start m-0 mb-4">Steve Jobs</h5>
                           <p class="card-text text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sint dolor quae dignissimos suscipit, atque voluptatum voluptatibus, in nihil placeat tempora consequatur optio quos aliquid perferendis laborum. Eos, accusamus cupiditate.</p>
@@ -100,18 +94,12 @@
                     <div class="card" style="width: 17rem;">
                         <img src="../integrador/imagenesIntegrador/bill.jpg" class="card-img-top" alt="Bill Gates">
                         <div class="card-body">
-                            <div class="d-grid gap-2 d-md-block text-start">
-                                <button type="button" class="btn btn-warning fw-bold"
-                                    style="--bs-btn-padding-y: .35rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                                    JavaScript
-                                </button>
-                                <button type="button" class="btn btn-info m-2 text-light fw-bold"
-                                    style="--bs-btn-padding-y: .35rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                                    React
-                                </button>
+                            <div class="text-start">
+                                <span class="badge text-bg-warning ">JavaScript</span>
+                                <span class="badge text-bg-info">React</span>
                             </div>
-                          <h5 class="card-title text-start m-0 mb-4">Bill Gates</h5>
-                          <p class="card-text text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sint dolor quae dignissimos suscipit, atque voluptatum voluptatibus, in nihil placeat tempora consequatur optio quos aliquid perferendis laborum. Eos, accusamus cupiditate.</p>
+                            <h5 class="card-title text-start m-0 mb-4">Bill Gates</h5>
+                            <p class="card-text text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sint dolor quae dignissimos suscipit, atque voluptatum voluptatibus, in nihil placeat tempora consequatur optio quos aliquid perferendis laborum. Eos, accusamus cupiditate.</p>
                         </div>
                     </div>
                 </div>
@@ -119,15 +107,9 @@
                     <div class="card" style="width: 17rem;">
                         <img src="../integrador/imagenesIntegrador/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
                         <div class="card-body">
-                            <div class="d-grid gap-2 d-md-block text-start">
-                                <button type="button" class="btn btn-secondary fw-bold"
-                                    style="--bs-btn-padding-y: .35rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                                    Negocios
-                                </button>
-                                <button type="button" class="btn btn-danger m-2 text-light fw-bold"
-                                    style="--bs-btn-padding-y: .35rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                                    Startups
-                                </button>
+                            <div class="text-start">
+                                <span class="badge text-bg-secondary text-light">Negocios</span>
+                                <span class="badge text-bg-danger text-light">Startups</span>
                             </div>
                           <h5 class="card-title text-start m-0 mb-4">Ada Lovelace</h5>
                           <p class="card-text text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sint dolor quae dignissimos suscipit, atque voluptatum voluptatibus, in nihil placeat tempora consequatur optio quos aliquid perferendis laborum. Eos, accusamus cupiditate.</p>
@@ -148,7 +130,7 @@
                             experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del
                             evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te
                             esperamos!</p>
-                    <button class="btn btn-outline-secondary" type="button">Conocé más</button>
+                    <button class="btn btn-outline-light" type="button">Conocé más</button>
                 </div>
             
             </div>
@@ -175,19 +157,19 @@
                 <div class="col-3"></div>
             </div>
             <div class="row">
-                <div class="col-3"></div>
-                <div class="col-6 form-floating">
+                <div class="col"></div>
+                <div class="col-lg-6 form-floating">
                     <textarea class="form-control" name="texto" id="texto" placeholder="Sobre qué quieres hablar?" style="height: 100px"></textarea>
                     <p class="text-secondary">Recuerda incluir un título para tu charla</p>
                 </div>
-                <div class="col-3"></div>
+                <div class="col"></div>
             </div>
             <div class="row">
-                <div class="col-3"></div>
-                <div class="col-6">
-                    <input type="submit" class="btn colorBtn text-light fw-bold" value="Enviar">
+                <div class="col"></div>
+                <div class="col-lg-6 text-center estiloBtn">
+                    <input type="submit" class="btn estiloBtn btn-lg text-light fw-bold" value="Enviar">
                 </div>
-                <div class="col-3"></div>
+                <div class="col"></div>
             </div>
         </form>
 
@@ -195,14 +177,18 @@
 
 
     <footer>
-        <div class="text-center">
-            <ul class="nav col-md-4 justify-content text-center">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
-            </ul>
+        <div class="conteiner bgFooter mt-3">
+            <div class="row">
+                <ul class="pagination justify-content-center">
+                    <li class="nav-item"><a href="#" class="nav-link text-light p-4">Preguntas frecuentes</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-light p-4">Contáctanos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-light p-4 ">Prensa</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-light p-4 ">Conferencias</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link p-4 text-light">Términos y condiciones</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link p-4 text-light">Privacidad</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link p-4 text-light">Estudiantes</a></li>
+                </ul>
+            </div>
         </div>
     </footer>
     
