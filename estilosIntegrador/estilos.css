@@ -10,8 +10,9 @@
 }
 
 .estiloBtn{
-    background: rgb(176, 231, 86);
+    background: rgb(167, 221, 80);
     border-radius: 5px;
+    color: white;
 }
 
 .bgFooter{
